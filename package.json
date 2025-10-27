@@ -2,12 +2,13 @@
   "name": "nihongo-reviewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cyrylmagnaye.github.io/nihongini",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,6 +18,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.4.7",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "gh-pages": "^5.0.0"
   }
 }
